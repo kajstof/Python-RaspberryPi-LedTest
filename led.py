@@ -8,6 +8,6 @@ while True:
     print("LED (GPIO 18 Port): On")
     GPIO.output(18, GPIO.HIGH)
     time.sleep(1)
-    print("LED(GPIO 18 Port): Off")
+    print("LED (GPIO 18 Port): Off")
     GPIO.output(18, GPIO.LOW)
     time.sleep(1)
